@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "回车批准",
+    "description": "权限申请出现时自动聚焦，按 Enter 批准、按 Esc 拒绝。"
+  }
+}

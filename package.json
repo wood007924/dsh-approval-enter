@@ -1,0 +1,50 @@
+{
+  "name": "dsh-approval-enter",
+  "version": "0.1.0",
+  "description": "Press Enter to approve a pending permission request in DeepSeek Harness — the approval card takes focus, Enter approves, Esc rejects.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "approval",
+    "permission",
+    "keyboard",
+    "enter",
+    "accessibility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wood007924/dsh-approval-enter.git"
+  },
+  "homepage": "https://github.com/wood007924/dsh-approval-enter#readme",
+  "bugs": {
+    "url": "https://github.com/wood007924/dsh-approval-enter/issues"
+  },
+  "license": "MIT",
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

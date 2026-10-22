@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Enter to approve",
+    "description": "Focuses a pending permission request so Enter approves it and Escape rejects it."
+  }
+}
